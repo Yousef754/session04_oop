@@ -141,7 +141,9 @@
             //int x = (int)c1;  
             //Console.WriteLine("Converted to int: " + x);  
             #endregion
-
+            #region V7
+            //sealed -static-partial
+            #endregion
         }
     }
 }
