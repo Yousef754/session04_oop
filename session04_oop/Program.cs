@@ -70,27 +70,31 @@
             #endregion
 
             #region Q2
-            /*
-             Define Class Maths that has four methods: Add, Subtract, Multiply,
-              and Divide, each of them takes two parameters. Call each method in
-              Main ().
-              Modify the program so that you do not have to create an instance of
-              class to call the four methods.
+            ///*
+            // Define Class Maths that has four methods: Add, Subtract, Multiply,
+            //  and Divide, each of them takes two parameters. Call each method in
+            //  Main ().
+            //  Modify the program so that you do not have to create an instance of
+            //  class to call the four methods.
 
 
-            */
-            
-            Console.WriteLine(Arithmetic.sum(5, 6));
-            Console.WriteLine(Arithmetic.Subtract(16, 9));
-            Console.WriteLine(Arithmetic.Multiply(5, 2));
-            Console.WriteLine(Arithmetic.Divide(8, 4));
+            //*/
+
+            //Console.WriteLine(Arithmetic.sum(5, 6));
+            //Console.WriteLine(Arithmetic.Subtract(16, 9));
+            //Console.WriteLine(Arithmetic.Multiply(5, 2));
+            //Console.WriteLine(Arithmetic.Divide(8, 4));
 
 
 
 
             #endregion
 
+            #region V1
+            //abstraction
 
+
+            #endregion
 
 
 
