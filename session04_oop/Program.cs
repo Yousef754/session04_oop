@@ -116,6 +116,24 @@
             //c1 = --c1; 
             //Console.WriteLine("After decrement: " + c1);
             #endregion
+            #region V5
+            //comparsion operator
+            //Complex c1 = new Complex(3, 4);   // Magnitude = 5
+            //Complex c2 = new Complex(1, 1);   // Magnitude ≈ 1.41
+
+            //if (c1 > c2)
+            //{
+            //    Console.WriteLine($"{c1} is greater than {c2}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"{c2} is greater than or equal to {c1}");
+            //}
+
+
+
+            #endregion
+
 
         }
     }

@@ -43,5 +43,16 @@ namespace session04_oop
             return new Complex(c.Real - 1, c.Imaginary - 1);
         }
 
+
+        //public static bool operator >(Complex c1, Complex c2)
+        //{
+        //    return c1.Magnitude() > c2.Magnitude();
+        //}
+
+        //// < operator
+        //public static bool operator <(Complex c1, Complex c2)
+        //{
+        //    return c1.Magnitude() < c2.Magnitude();
+        //}
     }
 }
