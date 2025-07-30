@@ -133,7 +133,14 @@
 
 
             #endregion
+            #region V6
+            //mapping 
 
+            //Complex c1 = new Complex(7, 5);
+
+            //int x = (int)c1;  
+            //Console.WriteLine("Converted to int: " + x);  
+            #endregion
 
         }
     }

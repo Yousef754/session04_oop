@@ -54,5 +54,16 @@ namespace session04_oop
         //{
         //    return c1.Magnitude() < c2.Magnitude();
         //}
+
+        public static explicit operator int(Complex c)
+        {
+            return c.Real;
+        }
+
+
+
+
+
+
     }
 }
