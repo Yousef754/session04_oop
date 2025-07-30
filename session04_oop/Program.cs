@@ -95,9 +95,20 @@
 
 
             #endregion
+            #region V3
+            //operator overloading
+            Complex c1 = new Complex(2, 3);   // 2 + 3i
+            Complex c2 = new Complex(1, 4);   // 1 + 4i
+
+            Complex result = c1.Add(c2);      // 3 + 7i
+            Console.WriteLine("Result: " + result);
 
 
 
-        }
+        
+        #endregion
+
+
+    }
     }
 }
