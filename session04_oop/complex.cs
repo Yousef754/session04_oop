@@ -32,5 +32,16 @@ namespace session04_oop
             return $"{Real} + {Imaginary}i";
         }
 
+
+        public static Complex operator ++(Complex c)
+        {
+            return new Complex(c.Real + 1, c.Imaginary + 1);
+        }
+
+        public static Complex operator --(Complex c)
+        {
+            return new Complex(c.Real - 1, c.Imaginary - 1);
+        }
+
     }
 }

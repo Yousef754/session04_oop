@@ -96,19 +96,27 @@
 
             #endregion
             #region V3
-            //operator overloading
-            Complex c1 = new Complex(2, 3);   // 2 + 3i
-            Complex c2 = new Complex(1, 4);   // 1 + 4i
+            ////operator overloading
+            //Complex c1 = new Complex(2, 3);   // 2 + 3i
+            //Complex c2 = new Complex(1, 4);   // 1 + 4i
 
-            Complex result = c1.Add(c2);      // 3 + 7i
-            Console.WriteLine("Result: " + result);
-
-
-
-        
-        #endregion
+            //Complex result = c1.Add(c2);      // 3 + 7i
+            //Console.WriteLine("Result: " + result);
 
 
-    }
+
+
+            #endregion
+            #region V4
+            //operator overloading ++ -- 
+            //
+            //Complex c1 = new Complex(5, 6);
+            //Console.WriteLine("Original: " + c1);
+
+            //c1 = --c1; 
+            //Console.WriteLine("After decrement: " + c1);
+            #endregion
+
+        }
     }
 }
